@@ -4,40 +4,44 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@500&display=swap"
+      rel="stylesheet">
     <title lang="en">Web studio</title>  
     <link rel="stylesheet" href="./css/styles.css">
   </head>
   <body>
     <header class="nav-section">
       <nav>
-        <a  lang="en" href="./index.html" class="logo"><span class="logo-part">Web</span> studio</a>
+        <a href="./index.html" class="logo"><span class="logo-part">Web</span>Studio</a>
         <ul class="nav-list">
           <li class="nav-list-item">
-            <a  href="./index.html" class="nav-data">Студия</a>
+            <a  href="./index.html" class="nav-studio">Студия</a>
           </li>
           <li class="nav-list-item">
-            <a " href="./index.html" class="nav-data">Портфолио</a>
+            <a " href="./portfolio.html" class="nav-portfolio">Портфолио</a>
           </li>
           <li class="nav-list-item">
-            <a  href="./index.html " class="nav-data">Контакты</a>
+            <a  href="./index.html " class="nav-contacts">Контакты</a>
           </li>
         </ul>
       </nav>
-      <ul>
-        <li>
-          <a class="mailto" href="mailto:info@devstudio.com">info@devstudio.com</a>
+      <ul class="contacts-list">
+        <li class="contacts-list-item">
+          <a href="mailto:info@devstudio.com" class="mailto">info@devstudio.com</a>
         </li>
-        <li>
-          <a class="callto" href="callto:+380961111111">+38 096 111 11 11</a>
+        <li class="contacts-list-item">
+          <a href="callto:+380961111111" class="callto">+38 096 111 11 11</a>
         </li>
       </ul>
     </header>
-    <main>
-      <section class="main-box">
+    <main class="main-box">
+      <section class="main-box-section">
         <h1 class="main-header">Эффективные решения для вашего бизнеса</h1>
-        <button class="order-buttom" type="button">Заказать услугу</button>
+        <button type="button" class="order-buttom">Заказать услугу</button>
       </section>
-      <section>
+      <section class="discription-section">
         <ul class="discription-list">
           <li class="discription-list-item">
             <h3 class="item-head">Внимание к деталям</h3>
@@ -99,8 +103,8 @@
           </li>
         </ul>
       </section>
-      <section>
-        <h2 class="our-team-section">Наша команда</h2>
+      <section class="our-team-section">
+        <h2 class="our-team-header">Наша команда</h2>
         <ul class="our-team-list">
           <li class="team-pic">
             <img
@@ -112,7 +116,6 @@
             <h3 class="worker-full-name">Игорь Демьяненко</h3>
             <p class="worker-position">Product Designer</p>
           </li>
-
           <li class="team-pic">
             <img
               src="./img/teampic2.jpg"
@@ -120,11 +123,9 @@
               width="270"
               height="260"
             />
-
             <h3 class="worker-full-name">Ольга Репина</h3>
             <p class="worker-position">Frontend Developer</p>
           </li>
-
           <li class="team-pic">
             <img
               src="./img/teampic3.jpg"
@@ -132,7 +133,6 @@
               width="270"
               height="260"
             />
-
             <h3 class="worker-full-name">Николай Тарасов</h3>
             <p class="worker-position">Marketing</p>
           </li>
@@ -143,7 +143,6 @@
               width="270"
               height="260"
             />
-
             <h3 class="worker-full-name">Михаил Ермаков</h3>
             <p class="worker-position">UI Designer</p>
           </li>
@@ -151,19 +150,19 @@
       </section>
     </main>
     <footer class="footer-section">
-      <a lang="en" href="./index.html"><span class="logo-part">Web</span> studio</a>
+      <a lang="en" href="./index.html" class="logo"><span class="logo-part">Web</span><span class="second-logo-part">Studio</span></a>
       <address>
-        <ul class="contacts-list">
+        <ul class="footer-contacts-list">
           <li class="contacts-list-item">
-            <a class="address" href="https://goo.gl/maps/WwCp9qjnden3q9Xp6" target="_blank"
-              >г. Киев, пр-т Леси Украинки, 26></a
+            <a  href="https://goo.gl/maps/WwCp9qjnden3q9Xp6" target="_blank"
+              class="address">г. Киев, пр-т Леси Украинки, 26></a
             >
           </li>
           <li class="contacts-list-item">
-            <a  href="mailto:info@example.com" class="mailto">info@example.com</a>
+            <a  href="mailto:info@example.com" class="footer-mailto">info@example.com</a>
           </li>
           <li class="contacts-list-item">
-            <a href="callto:+380991111111" class="callto">+38 099 111 11 11</a>
+            <a href="callto:+380991111111" class="footer-callto">+38 099 111 11 11</a>
           </li>
         </ul>
       </address>
