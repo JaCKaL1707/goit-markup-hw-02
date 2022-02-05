@@ -55,19 +55,24 @@ body {
   color: #212121;
   text-decoration: none;
 }
-.mailto:hover {
+.mailto:hover,
+.mailto:focus {
   color: #2196f3;
 }
-.callto:hover {
+.callto:hover,
+.callto:focus {
   color: #2196f3;
 }
-.nav-studio:hover {
+.nav-studio:hover,
+.nav-studio:focus {
   color: #2196f3;
 }
-.nav-portfolio:hover {
+.nav-portfolio:hover,
+.nav-portfolio:focus {
   color: #2196f3;
 }
-.nav-contacts:hover {
+.nav-contacts:hover,
+.nav-contacts:focus {
   color: #2196f3;
 }
 .callto {
@@ -175,6 +180,9 @@ body {
 .second-logo-part {
   color: #ffffff;
 }
+.footer-contacts-list-item {
+  color: #2f303a;
+}
 .address {
   font-style: normal;
   font-weight: normal;
@@ -184,7 +192,8 @@ body {
   color: #ffffff;
   text-decoration: none;
 }
-.address:hover {
+.address:hover,
+.address:focus {
   color: #2196f3;
 }
 .footer-mailto,
@@ -197,10 +206,12 @@ body {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
-.footer-callto:hover {
+.footer-callto:hover,
+.footer-callto:focus {
   color: #2196f3;
 }
-.footer-mailto:hover {
+.footer-mailto:hover,
+.footer-mailto:focus {
   color: #2196f3;
 }
 .logo-part-portfolio {
@@ -223,17 +234,27 @@ body {
   line-height: 30px;
   color: #757575;
 }
-.button-all,
-.button-web,
-.button-addition,
-.button-design,
-.button-marketing {
+.button-all {
   color: #212121;
   background-color: #f5f4fa;
+}
+.button-all {
+  cursor: pointer;
+}
+.product-nav-list .button-all:hover {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+.product-nav-list .button-all:focus {
+  color: #ffffff;
+  background-color: #2196f3;
 }
 .product-nav-list {
   color: #ffffff;
 }
 .contacts-list-item {
   color: #ffffff;
+}
+
+.buttons-bar-section {
 }
