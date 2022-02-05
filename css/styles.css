@@ -209,3 +209,31 @@ body {
 .second-logo-part-portfolio {
   color: #ffffff;
 }
+.product-list-item {
+  color: #ffffff;
+}
+.product-name {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  color: #212121;
+}
+.product-class {
+  font-size: 16px;
+  line-height: 30px;
+  color: #757575;
+}
+.button-all,
+.button-web,
+.button-addition,
+.button-design,
+.button-marketing {
+  color: #212121;
+  background-color: #f5f4fa;
+}
+.product-nav-list {
+  color: #ffffff;
+}
+.contacts-list-item {
+  color: #ffffff;
+}
