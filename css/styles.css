@@ -2,208 +2,159 @@ body {
   font-family: "Roboto", sans-serif;
   background-color: #ffffff;
 }
+/* header styles */
+.nav-section {
+}
 .logo {
-  font-family: "Raleway", sans-serif;
-  font-style: normal;
+  font-family: Raleway, sans-serif;
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
-  color: #000;
+  color: #000000;
   text-decoration: none;
 }
 .logo-part {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 31px;
-  letter-spacing: 0.03em;
   color: #2196f3;
 }
-.nav-section {
-  width: 1600px;
-  height: 80px;
+.list {
+  list-style: none;
 }
-.nav-list-item {
-  color: #ffffff;
-}
-.nav-studio {
-  width: 49px;
-  height: 16px;
-  left: 453px;
-  top: 32px;
-  color: #212121;
-  text-decoration: none;
-}
-.nav-portfolio,
-.nav-contacts {
-  font-weight: 500;
+.anchors {
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: #212121;
   text-decoration: none;
 }
-.contacts-list-item {
-  color: #ffffff;
-}
-.mailto {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-  color: #757575;
-  text-decoration: none;
-}
-.mailto:hover,
-.mailto:focus {
+
+.anchors:hover,
+.anchors:focus {
   color: #2196f3;
 }
-.callto:hover,
-.callto:focus {
-  color: #2196f3;
-}
-.nav-studio:hover,
-.nav-studio:focus {
-  color: #2196f3;
-}
-.nav-portfolio:hover,
-.nav-portfolio:focus {
-  color: #2196f3;
-}
-.nav-contacts:hover,
-.nav-contacts:focus {
-  color: #2196f3;
-}
+.mailto,
 .callto {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
   color: #757575;
-  text-decoration: none;
+}
+
+/* main section */
+.main-box {
+  background-color: #ffffff;
 }
 .main-box-section {
-  margin-top: 80px;
-  margin-bottom: 94px;
   background-color: #2f303a;
 }
 .main-header {
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
-  text-align: center;
+  line-height: 1.36;
   letter-spacing: 0.06em;
-  text-transform: uppercase;
   color: #ffffff;
 }
 .order-buttom {
-  font-style: normal;
   font-weight: bold;
-  font-size: 16px;
-  line-height: 30px;
-  display: flex;
-  letter-spacing: 0.06em;
-  color: #ffffff;
-  background: #2196f3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   cursor: pointer;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  background-color: #2196f3;
+  color: #ffffff;
   border: none;
 }
-
+/* disription section */
 .discription-section {
   margin-top: 94px;
-  margin-bottom: 94px;
-}
-.discription-list {
-  left: 215px;
-  top: 774px;
-}
-.discription-list-item {
-  color: #ffffff;
 }
 .item-head {
+  font-weight: bold;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
 }
 .item-data {
   font-size: 14px;
-  line-height: 24px;
-
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
 }
+/* our-doing-section */
 .our-doing-section {
   margin-top: 94px;
-  margin-bottom: 94px;
 }
 .our-doing-header {
+  font-weight: bold;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.16;
   letter-spacing: 0.03em;
   color: #212121;
 }
 .doing-pic {
-  color: #ffffff;
+  width: 370px;
+  height: 294px;
 }
+/* our-team-section */
 .our-team-section {
-  background-color: #f5f4fa;
   margin-top: 94px;
+  background-color: #f5f4fa;
 }
 .our-team-header {
+  font-weight: bold;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.16;
   letter-spacing: 0.03em;
   color: #212121;
 }
-.team-pic {
-  color: #f5f4fa;
-}
 .worker-full-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
   color: #212121;
 }
 .worker-position {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
   color: #757575;
 }
+/* footer-section */
 .footer-section {
-  width: 1600px;
-  height: 252px;
+  margin-top: 94px;
   background-color: #2f303a;
 }
-.contacts-list-item {
-  color: #2f303a;
-}
 .second-logo-part {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
   color: #ffffff;
-}
-.footer-contacts-list-item {
-  color: #2f303a;
 }
 .address {
   font-style: normal;
   font-weight: normal;
+  text-decoration: none;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
-  text-decoration: none;
-}
-.address:hover,
-.address:focus {
-  color: #2196f3;
 }
 .footer-mailto,
 .footer-callto {
   font-style: normal;
   font-weight: normal;
+  text-decoration: none;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-  text-decoration: none;
+}
+.address:hover,
+.address:focus {
+  color: #2196f3;
 }
 .footer-callto:hover,
 .footer-callto:focus {
@@ -213,47 +164,42 @@ body {
 .footer-mailto:focus {
   color: #2196f3;
 }
-/* Начало файла portfolio*/
+/* portfolio-section-of-styles */
 .main-box-portfolio {
   margin-top: 94px;
 }
-.button-all {
+/* buttons-section */
+.buttons {
+  font-family: Roboto, sans-serif;
   font-weight: 500;
+  cursor: pointer;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.62;
   letter-spacing: 0.03em;
-  color: #212121;
   background-color: #f5f4fa;
+  color: #212121;
   border: none;
 }
-.button-all {
-  cursor: pointer;
-}
-.product-nav-list .button-all:hover {
-  color: #ffffff;
+.buttons:hover,
+.buttons:focus {
   background-color: #2196f3;
-}
-.product-nav-list .button-all:focus {
-  color: #ffffff;
-  background-color: #2196f3;
-}
-.product-nav-list {
   color: #ffffff;
 }
-.contacts-list-item {
-  color: #ffffff;
-}
-.product-list-item {
-  color: #ffffff;
+/* products-section */
+.product-picture {
+  width: 370px;
+  height: 294px;
 }
 .product-name {
   font-weight: bold;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
+  letter-spacing: 0.06em;
   color: #212121;
 }
 .product-class {
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
   color: #757575;
 }
