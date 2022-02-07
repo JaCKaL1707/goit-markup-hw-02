@@ -50,7 +50,7 @@ body {
 
 .anchors:hover,
 .anchors:focus {
-  color: var(--accent-color);
+  color: var(--anchors-accent-color);
 }
 .mailto,
 .callto {
@@ -171,11 +171,11 @@ body {
 }
 .footer-callto:hover,
 .footer-callto:focus {
-  color:var(--accent-color);
+  color:var(--anchors-accent-color);
 }
 .footer-mailto:hover,
 .footer-mailto:focus {
-  color: var(--accent-color);
+  color: var(--anchors-accent-color);
 }
 /* portfolio-section-of-styles */
 .main-box-portfolio {
